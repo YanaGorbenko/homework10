@@ -579,10 +579,14 @@ span {
 /* Телефоны */
 @media (max-width: 576px) {
   .container {
-    max-width: 576;
-    padding: 0 15px;
+    max-width: 576px;
   }
+  .header .container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
   .header__logo {
-    margin-right: 124px;
+    margin-right: 80px;
   }
 }
